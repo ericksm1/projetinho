@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+	<title>EDITAR PERFIL</title>
+	<link rel="stylesheet" href="css/estilo_perfil.css">
+  </head>
+  
+  <body>
+      
+  </body>
+
+</html>

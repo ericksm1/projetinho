@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+	<title>CADASTRO DE ATLETAS</title>
+	<link rel="stylesheet" href="css/estilo_cadastro.css">
+  </head>
+  
+  <body>
+      <div class="container">
+	     <nav>
+		   <ul class="menu">
+		     <li> <a href="index.html"> Home </a> </li>
+		     <li> Cadastros </li>
+			 <li> Consultas </li>
+		   </ul>
+		 </nav>
+	     <section>
+		   <h1> CADASTRO DE ATLETAS </h1>
+		   <hr> <br> <br>
+		   
+		   <form method="post" action="processa.php">
+		     <input type="submit" value="SALVAR" class="btn">
+			 <input type="reset" value="LIMPAR" class="btn">
+			 <br><br> 
+			  
+			  
+			  Nome <br>
+			  <input type="text" name="nome" class="campo" maxlength="40" required autofocus><br>
+			  E-mail <br>
+			  <input type="email" name="email" class="campo" maxlength="50" required><br>
+			  Idade <br>
+			  <input type="text" name="idade" class="campo" maxlength="50" required><br>
+			  Altura <br>
+			  <input type="text" name="altura" class="campo" maxlength="50" required><br>
+			  Peso <br>
+			  <input type="text" name="peso" class="campo" maxlength="50" required><br>
+			  Melhor pé <br>
+			  <input type="text" name="melhorpe" class="campo" maxlength="50" required><br>
+			  Posição primaria <br>
+			  <input type="text" name="posicaopri" class="campo" maxlength="50" required><br>
+			  Posição secundaria <br>
+			  <input type="text" name="prosicaosec" class="campo" maxlength="50" required><br>
+			  Estilo de jogo <br>
+			  <input type="text" name="estilojogo" class="campo" maxlength="50" required><br>
+			  Cidade  <br>
+			  <input type="text" name="cidade" class="campo" maxlength="50" required><br>
+		   </form>
+		 </section>
+	  </div>
+  </body>
+
+</html>
